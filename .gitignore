@@ -1,0 +1,4 @@
+echo *.keras >> .gitignore
+echo *.h5 >> .gitignore
+echo *.npy >> .gitignore
+echo *.zip >> .gitignore
