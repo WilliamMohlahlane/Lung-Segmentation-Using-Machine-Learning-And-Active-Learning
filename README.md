@@ -85,9 +85,21 @@ pip install tensorflow numpy nibabel scikit-image scikit-learn matplotlib
 
 1. **Clone the repository** or download the project files.
 
+```bash
+git clone https://github.com/WilliamMohlahlane/Lung-Segmentation-Using-Machine-Learning-And-Active-Learning
+
+```
+
 2. **Download the dataset** from [Zenodo](https://zenodo.org/record/3757476) or Kaggle and place files in the correct folders:
    - CT scan volumes → `ct_scans/`
    - Lung mask volumes → `lung_mask/`
+
+3. Navigate into project
+
+```bash
+cd Lung-Segmentation-Using-Machine-Learning-And-Active-Learning
+```
+
 
 3. **Update the data paths** in `Model.ipynb` to point to your local directories:
 
